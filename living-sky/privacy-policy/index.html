@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Weather: Living Sky</title>
+<meta name="description" content="Privacy policy for the Weather: Living Sky Android app by Nikhil.">
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --fg: #1b1f27; --muted: #5a6272; --rule: #e3e6ec; --link: #1a5fd0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #070A12; --fg: #e6e9f0; --muted: #9aa3b5; --rule: #1f2533; --link: #7fb0ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9em; line-height: 1.2; margin: 0 0 .4em; }
+  h2 { font-size: 1.35em; margin: 1.8em 0 .5em; padding-top: 1em; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.1em; margin: 1.4em 0 .4em; }
+  ul { padding-left: 1.3em; }
+  li { margin: .3em 0; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+<h1 id="privacy-policy">Privacy policy</h1>
+<p><strong>Weather</strong>, by Nikhil. Last updated October 20,
+2026.</p>
+<p>Weather ("the app") is an Android weather app with home-screen
+widgets, made by Nikhil ("we", "us"). This policy explains what
+information the app uses, where it goes, and what you can do about
+it.</p>
+<h2 id="the-short-version">The short version</h2>
+<ul>
+<li>No account and no sign-in. No ads, no usage analytics and no
+tracking.</li>
+<li>To show the weather, the app sends a location (yours, if you allow
+it, or a city you searched for) to the weather services listed below.
+They use it to answer that request.</li>
+<li>If the app crashes or stops responding, it sends us a report so we
+can fix the problem. A report never contains your location or anything
+that identifies you.</li>
+<li>Everything else the app remembers stays in the app's private storage
+on your phone.</li>
+</ul>
+<h2 id="what-the-app-uses-and-why">What the app uses, and why</h2>
+<h3 id="your-location-only-if-you-allow-it">Your location (only if you
+allow it)</h3>
+<p>If you give the app location permission, it asks Android (through
+Google Play services) where the phone is. It uses this location to:</p>
+<ul>
+<li><strong>get your forecast:</strong> the latitude and longitude, to
+four decimal places (about 11 metres), are sent to
+<strong>Open-Meteo</strong> (open-meteo.com). For places in Europe, the
+same location is also sent to Open-Meteo's air-quality service for
+pollen levels.</li>
+<li><strong>get official weather alerts:</strong> for places in or near
+the United States, the same location is sent to the <strong>US National
+Weather Service</strong> (api.weather.gov).</li>
+<li><strong>name the place:</strong> the location is passed to Android's
+built-in address lookup to find the town and state. On most phones this
+lookup is provided by Google.</li>
+</ul>
+<p>The app never reads your location in the background. Home-screen
+widgets use the last location the app saw while it was open.</p>
+<p>You can use the app without sharing your location at all: search for
+a city instead.</p>
+<h3 id="city-searches">City searches</h3>
+<p>When you search for a city, the text you type is sent to
+<strong>Open-Meteo</strong>'s place-search service to find matching
+places. The last five cities you picked are kept on your phone so you
+can pick them again. You can clear them with "Clear" in the search
+screen.</p>
+<h3 id="crash-reports">Crash reports</h3>
+<p>If the app crashes, or (on Android 11 and later) stops responding, it
+keeps a short report on your phone and sends it to us the next time the
+app runs with an internet connection, so we can find and fix the
+problem. A report contains:</p>
+<ul>
+<li>where in the app's code the problem happened (a "stack trace"), and
+Android's short description of it;</li>
+<li>the app's version, the Android version, and the phone's make and
+model;</li>
+<li>the time it happened.</li>
+</ul>
+<p>It contains no location, no city, no account and nothing else that
+identifies you: before sending, the app removes anything that looks like
+a location or a web address's details. The report travels over HTTPS to
+a small Google Apps Script in our Google account, which emails it to us
+at <a
+href="mailto:weatherbynikhil@gmail.com">weatherbynikhil@gmail.com</a>.
+Like any internet request, it reaches Google with your phone's IP
+address; we do not see that address. The app sends reports at most three
+times a day. We keep reports only as long as we need them to fix the
+problem, and we never sell or share them.</p>
+<h3 id="information-that-is-stored-on-your-phone">Information that is
+stored on your phone</h3>
+<p>The app keeps the following in its private storage, which other apps
+cannot read:</p>
+<ul>
+<li>your settings: units, which forecast values to show, animation
+choices, and each widget's setup;</li>
+<li>the city you picked, your last five picked cities, and the last
+device location the app saw (so widgets can refresh without asking for
+your location again);</li>
+<li>the most recent forecast, including the place's name and
+coordinates, so the app and widgets have something to show offline;</li>
+<li>crash reports waiting to be sent, the times reports were sent (so
+that they go out no more than three times a day), and the last crash,
+which you can copy or delete in Settings;</li>
+<li>pictures of the buildings drawn in the animated scene (no personal
+information).</li>
+</ul>
+<p>It is deleted when you clear the app's storage in Android settings or
+uninstall the app.</p>
+<p><strong>Backups.</strong> On Android 12 and later, your settings
+(including the last device location and recent cities) are included in
+your Google backup only when that backup is end-to-end encrypted with
+your phone's screen lock, and they are copied when you move directly to
+a new phone. The saved forecast and crash reports are never backed up.
+On Android 11 and earlier, nothing that contains a location is backed
+up.</p>
+<h2 id="who-receives-information">Who receives information</h2>
+<p>We do not sell, rent or share information with anyone. The app talks
+directly to these services, which also see your phone's IP address as
+part of any internet connection:</p>
+<ul>
+<li><strong>Open-Meteo</strong> (Switzerland) receives the coordinates
+of the place you are viewing and your city searches. Its terms are at
+open-meteo.com/en/terms; Open-Meteo says it keeps web server logs, which
+may contain coordinates, for up to 90 days, and does not link them to
+identities.</li>
+<li><strong>The US National Weather Service</strong> receives the
+coordinates of places in or near the United States. Its privacy policy
+is at weather.gov/privacy.</li>
+<li><strong>Google</strong>, through Google Play services on your phone,
+handles location requests and the address lookup as part of how Android
+provides location. Google also carries crash reports to us (Google Apps
+Script and Gmail). Its privacy policy is at
+policies.google.com/privacy.</li>
+<li><strong>We</strong> receive crash reports, as described above.</li>
+</ul>
+<p>If you choose to share usage and diagnostics with Google on your
+phone, Google Play may also give us anonymous, combined crash and
+performance statistics for the app. That is covered by Google's privacy
+policy.</p>
+<h2 id="security">Security</h2>
+<p>All connections use HTTPS, and the app refuses unencrypted
+connections. The app has no account or password to steal.</p>
+<h2 id="your-choices">Your choices</h2>
+<ul>
+<li>Allow, limit to "approximate", or remove location access at any time
+in Android settings (Settings &gt; Apps &gt; Weather &gt;
+Permissions).</li>
+<li>Use a searched city instead of your location.</li>
+<li>Clear recent searches in the app, or clear all of the app's data in
+Android settings.</li>
+<li>Uninstall the app to remove everything it stored on your phone.</li>
+<li>Ask us to delete the crash reports your phone sent by writing to <a
+href="mailto:weatherbynikhil@gmail.com">weatherbynikhil@gmail.com</a>.
+Because reports do not identify you, tell us roughly when the problem
+happened and on which phone.</li>
+</ul>
+<h2 id="children">Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly
+collect information from them.</p>
+<h2 id="changes-to-this-policy">Changes to this policy</h2>
+<p>If the app starts using information differently, we will update this
+policy and the date at the top before that version of the app is
+released.</p>
+<h2 id="contact">Contact</h2>
+<p>Nikhil, <a
+href="mailto:weatherbynikhil@gmail.com">weatherbynikhil@gmail.com</a></p>
+</main>
+</body>
+</html>
